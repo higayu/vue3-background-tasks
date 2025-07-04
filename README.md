@@ -1,5 +1,19 @@
 # vue3-background-tasks
 
+```
+src/
+├── components/
+│   └── BackgroundTimer.vue
+├── views/
+│   ├── Home.vue
+│   └── BackgroundTasks.vue  ← 非同期/バックグラウンド処理の学習用ページ
+├── store/
+│   └── index.js             ← 状態管理（例：ロード中フラグ）
+├── App.vue
+├── main.js
+```
+
+
 ## Project setup
 ```
 npm install
